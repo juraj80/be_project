@@ -1,0 +1,38 @@
+<div metal:use-macro="view.layout">
+    <div metal:fill-slot="main_content">
+
+
+        <div class="container">
+            <div class="row upcoming">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+
+
+                    <h1>Employees</h1>
+                    <div class="emp-in-list" tal:repeat="a emps">
+                        <img src="${a.emp_image}" alt="">
+                        <div class="emp-name">${a.first_name} ${a.last_name}<br>${a.dept_name} </div>
+
+                            <!--?<a href="#" #tal:condition="a.has_preview">preview</a>-->
+                        <!--?<div>-->
+                            <!--?<ul>-->
+                                <!--?<li #tal:repeat="t a.tracks">-->
+                                        <!--?#-->
+                                <!--?</li>-->
+                            <!--?</ul>-->
+                        <!--?</div>-->
+                        <div style="clear: both;"></div>
+                    </div>
+                    <br>
+                    <div>
+                        <a href="/admin/new_employee">New Employee Info</a>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
