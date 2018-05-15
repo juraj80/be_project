@@ -45,7 +45,8 @@ body {
 }
 
 .emp-in-list .emp-name {
-    font-size: 18px;
+    font-size: 10px;
+    padding:10px;
 }
 
 form.standard-form input{
@@ -62,7 +63,8 @@ form.standard-form input{
 }
 
 .standard-form input, .standard-form button {
-    margin: 10px;
+    margin: 20px;
+    float: center;
 }
 
 .error-msg {

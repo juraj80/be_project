@@ -1,6 +1,6 @@
 [program:{{ app_name }}]
 command={{ venv_dir }}/bin/pserve production.ini
-directory={{ sub_app_dir }}
+directory={{ app_dir }}
 user={{ deploy_user }}
 autostart=true
 autorestart=true

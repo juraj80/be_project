@@ -17,7 +17,7 @@ class NewEmployeeViewModel(ViewModelBase):
         self.first_name = data_dict.get('first_name')
         self.last_name = data_dict.get('last_name')
 
-        self.birth_date = int(data_dict.get('birth_date'))
+        self.birth_date = data_dict.get('birth_date')
         self.gender = data_dict.get('gender')
         self.salary = float(data_dict.get('salary'))
         self.emp_image = data_dict.get('emp_image')

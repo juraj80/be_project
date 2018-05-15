@@ -12,7 +12,7 @@ class Employee(SqlAlchemyBase):
     first_name = sqlalchemy.Column(sqlalchemy.String, index=True, nullable=False)
     last_name = sqlalchemy.Column(sqlalchemy.String, index=True, nullable=False)
 
-    birth_date = sqlalchemy.Column(sqlalchemy.Integer, index=True)
+    birth_date = sqlalchemy.Column(sqlalchemy.String, index=True)
     gender = sqlalchemy.Column(sqlalchemy.String, index=True, nullable=False)
     salary = sqlalchemy.Column(sqlalchemy.Float, index=True)
     emp_image = sqlalchemy.Column(sqlalchemy.String)

@@ -6,7 +6,7 @@
             <div class="row upcoming">
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
-                    <h1>Create Employee Form</h1>
+                    <h1>Register a New Employee</h1>
 
                     <div class="error-msg" tal:condition="error">
                         Error: ${error}
@@ -22,13 +22,13 @@
                         <input name="gender" required type="text" value="${gender}"
                                placeholder="gender" class="form-control">
                         <input name="salary" required type="text" value="${salary}"
-                               placeholder=" salary (in EUR)"  class="form-control">
+                               placeholder=" salary (in USD)"  class="form-control">
                         <input name="emp_image" required type="text" value="${emp_image}"
                                placeholder="emp_image" class="form-control">
                         <input name="dept_name" required type="text" value="${dept_name}"
-                               placeholder="dept_name" class="form-control">
+                               placeholder="occupation" class="form-control">
 
-                        <button type="submit" class="btn btn-success">Create Employee</button>
+                        <button type="submit" class="btn btn-success">Register a New Employee</button>
                     </form>
                 </div>
                 <div class="col-md-3"></div>

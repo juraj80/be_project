@@ -10,22 +10,20 @@
 
                     <h1>Employees</h1>
                     <div class="emp-in-list" tal:repeat="a emps">
-                        <img src="${a.emp_image}" alt="">
-                        <div class="emp-name">${a.first_name} ${a.last_name}<br>${a.dept_name} </div>
+                        <img src="${a.emp_image}" alt="" height="42" width="120">
+                        <div class="emp-name">
+                            <h4>Name: ${a.first_name} ${a.last_name}</h4>
+                            <p>Gender: ${a.gender}</p>
+                            <p>Birth Date: ${a.birth_date}</p>
+                            <p>Occupation: ${a.dept_name}</p>
+                            <p>Salary: ${a.salary}</p>
 
-                            <!--?<a href="#" #tal:condition="a.has_preview">preview</a>-->
-                        <!--?<div>-->
-                            <!--?<ul>-->
-                                <!--?<li #tal:repeat="t a.tracks">-->
-                                        <!--?#-->
-                                <!--?</li>-->
-                            <!--?</ul>-->
-                        <!--?</div>-->
+                        </div>
                         <div style="clear: both;"></div>
                     </div>
                     <br>
                     <div>
-                        <a href="/admin/new_employee">New Employee Info</a>
+                        <a href="/admin/new_employee">Register a New Employee</a>
                     </div>
                     <br>
                 </div>

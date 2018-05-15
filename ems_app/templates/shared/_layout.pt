@@ -60,19 +60,14 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="/emps">employees</a>
+                    <a href="/emps">List of employees</a>
                 </li>
-                <!--?<li>-->
-                    <!--?<a href="/home/book_us">book us</a>-->
-                <!--?</li>-->
-                <!--?<li>-->
-                    <!--?<a href="/home/contact">contact</a>-->
-                <!--?</li>-->
+
+               <!--? <li>
+                    <a href="account/signin">Sign in</a>
+                </li>-->
                 <li>
-                    <a href="account/signin">sign in</a>
-                </li>
-                <li>
-                    <a href="account/register">register</a>
+                    <a href="account/register">Log in</a>
                 </li>
             </ul>
         </div>
@@ -98,52 +93,11 @@
                 <a href="https://butterflyeffect.sk">
                     LEAF Butterly Effect project</a>.<br>
                 <br>
-                <!--?Blue / Yellow Rockets was built-->
-                <!--?during the class to show how-->
-                <!--?to create a website in Python, but also all the business related features-->
-                <!--?no one sees (mailing lists, credit card payments, email, etc).-->
-
             </div>
-            <!--?<div class="col-md-3">-->
-                <!--?<div class="social">-->
-                    <!--?<div class="section-header">Connect with us</div>-->
-                    <!--?<div><a href="mailto:contact@talkpython.fm" target="_blank"-->
-                    <!--?><i class="fa fa-envelope"></i> email</a>-->
-                    <!--?</div>-->
-                    <!--?<div>-->
-                        <!--?<a href="https://training.talkpython.fm/courses/details/python-for-entrepreneurs-with-html-css-pyramid-sqlalchemy-bootstrap-stripe-and-mailchimp"-->
-                           <!--?target="_blank"><i class="fa fa-file-video-o"></i> course</a></div>-->
-                    <!--?<div><a href="https://github.com/mikeckennedy/python-for-entrepreneurs-course-demos"-->
-                            <!--?target="_blank"><i class="fa fa-github"></i> github</a></div>-->
-                    <!--?<div><a href="https://twitter.com/TalkPython" target="_blank"><i class="fa fa-twitter"></i>-->
-                        <!--?twitter</a>-->
-                    <!--?</div>-->
-                    <!--?<div><a href="/home/image_credits" ><i-->
-                            <!--?class="fa fa-picture-o" aria-hidden="true"></i> credits</a></div>-->
-                    <!--?<div><a href="https://www.youtube.com/channel/UCKPSmMfDsXTKrCZApukcJ7A" target="_blank"><i-->
-                            <!--?class="fa fa-youtube"></i> youtube</a></div>-->
-                    <!--?<div><a href="https://talkpython.fm/" target="_blank"><i class="fa fa-microphone"></i>-->
-                        <!--?podcast</a>-->
-                    <!--?</div>-->
-                <!--?</div>-->
 
-           <!--?</div>-->
             <div class="col-md-1"></div>
         </div>
 
-        <!--?<div class="row">-->
-            <!--?<div class="col-md-2"></div>-->
-            <!--?<div class="col-md-8">-->
-
-                <!--?<div class="copyright">-->
-                    <!--?Copyright &copy; 2018 <a href="https://training.talkpython.fm/"-->
-                                             <!--?target="_blank">Talk Python Training</a>. All rights reserved.-->
-                <!--?</div>-->
-
-            <!--?</div>-->
-            <!--?<div class="col-md-1"></div>-->
-        <!--?</div>-->
-    <!--?</div>-->
 </footer>
 
 <!-- Bootstrap core JavaScript
