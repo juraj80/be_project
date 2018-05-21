@@ -55,32 +55,25 @@
     <index id="16" parent="6" name="sqlite_autoindex_Employee_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <index id="17" parent="6" name="ix_Employee_first_name">
       <ColNames>first_name</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <index id="18" parent="6" name="ix_Employee_last_name">
       <ColNames>last_name</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <index id="19" parent="6" name="ix_Employee_birth_date">
       <ColNames>birth_date</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <index id="20" parent="6" name="ix_Employee_gender">
       <ColNames>gender</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <index id="21" parent="6" name="ix_Employee_salary">
       <ColNames>salary</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <index id="22" parent="6" name="ix_Employee_dept_name">
       <ColNames>dept_name</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="23" parent="6">
       <ColNames>id</ColNames>
